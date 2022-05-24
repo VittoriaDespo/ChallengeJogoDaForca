@@ -2,7 +2,7 @@ body{
 	width: 100%;
 	margin: 0 auto;
 	height: 800px;
-	background: url(/Users/paulo/Desktop/front-end/Jogo-Forca/img/quadriculado.jpeg);
+	background: url(/Users/paulo/Desktop/front-end/Jogo-Forca/img/quadriculado.jpg);
 	background-repeat: no-repeat;
 	background-size: 1300px;
 	display: flex;
