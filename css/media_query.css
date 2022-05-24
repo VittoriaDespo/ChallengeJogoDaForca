@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px){
+
+	.titulo-principal {
+		margin: 1em;
+	}
+
+	.adicionar-palavra{
+		align-items: center;
+	}
+
+	.area-texto{
+		display: flex;
+    	flex-direction: column;
+	}
+
+	.body-game {
+		width: 1000px;
+		background-size: 1400px;
+	}
+
+
+	.canvas {
+		width: auto;
+	}
+
+	
+	.footer {
+		position: relative;
+		top: 60px;
+	}
+
+}

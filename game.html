@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width">
+		<title>Jogo da Forca</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/game.css">
+		<link rel="stylesheet" href="css/media_query.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">	
+	</head>
+
+	<body class="body-game">
+		<header>
+				
+			<img src="img/logo.png" alt = "logo MD" class="logo">
+			
+		</header>
+
+		<main class="main-jogo">
+			<div>
+				<h1 class = "titulo-principal"> Jogo da Forca </h1>
+				<p class = "regras">Digite no teclado uma letra e advinha a palavra</p>
+			</div>
+
+			<section class="canvas">
+
+				<canvas width="1000" height="800"></canvas>
+
+				<div class="container-letras">
+			
+					<div  id="letra0" class="letras"></div>
+					<div  id="letra1" class="letras"></div>
+					<div  id="letra2" class="letras"></div>
+					<div  id="letra3" class="letras"></div>
+					<div  id="letra4" class="letras"></div>
+					<div  id="letra5" class="letras"></div>
+					<div  id="letra6" class="letras"></div>
+					<div  id="letra7" class="letras"></div>
+
+				</div>
+
+				<div class="display-letras-erradas"></div>
+
+
+				<form id="form">
+					<input type="text" class="input">
+				</form>
+
+				<div class="buttons-pag-game">
+					<p class="aviso"><img class="img-aviso" src="img/aviso.png" alt = "ponto esclamação"> Apenas letras sem acentos e caracteres especiais </p>
+
+					<a href="game.html">
+						<input type="submit" value="Novo jogo" class="button" id="button-novo-jogo">
+					</a>
+
+					<a href="index.html">
+						<input type="submit" value="Desistir" class="button" id="button-desistir">
+					</a>
+				</div>
+
+			</section>
+
+		</main>
+
+
+		<footer class = "footer">
+
+			<p>&copy; Copyright-2022 Mariavittoria d'Esposito</p>
+
+			<ul>
+				<li><a href="https://www.linkedin.com/in/mariavittoria-d%E2%80%99esposito-156027159/"><img src="img/linkedin.png" class="link"></a></li>
+				<li><a href="https://github.com/VittoriaDespo/ChallengeOracleONE"><img src="img/github.png" class="link"></a></li>
+			</ul>
+
+		</footer>
+
+		<!--Importação dos Javascripts AQUI -->
+
+		<script src="js/main.js"></script>
+
+		<script src="js/draw_hangMan.js"></script>
+
+		<script src="js/show_letters.js"></script>
+
+		<script src="js/show_msg_winner_loser.js"></script>
+
+		<script src="js/validate_input.js"></script>
+
+		<script src="js/start_game.js"></script>
+
+		<script src="js/draw_win.js"></script>
+
+		<script src="js/draw_game_over.js"></script>
+
+
+
+
+	</body>

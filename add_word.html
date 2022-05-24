@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width">
+		<title>Jogo da Forca</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/add_word.css">
+		<link rel="stylesheet" href="css/media_query.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">	
+	</head>
+
+	<body>
+		<header>
+				
+			<img src="img/logo.png" alt = "logo MD" class="logo">
+
+		</header>
+
+		<main>
+			<span id="mensagem-erro"></span>
+
+			<section class="adicionar-palavra">
+			
+				<input type="text" name="add-word" placeholder="Digite uma palavra" maxlength="8" class="texto" autofocus>
+
+
+				<div class="area-texto">
+
+					<p class="aviso"><img class="img-aviso" src="img/aviso.png" alt = "ponto esclamação"> Máx.de 8 letras</p>
+
+					<a href="index.html">
+						<input type="submit" value="Cancelar" class="button" id="button-cancelar">
+					</a>
+
+					<input type="submit" value="Salvar e começar" class="button" id="button-salvar">
+					
+
+				</div>
+
+
+			</section>
+
+		</main>
+
+		<footer class = "footer">
+
+			<p>&copy; Copyright-2022 Mariavittoria d'Esposito</p>
+
+			<ul>
+				<li><a href="https://www.linkedin.com/in/mariavittoria-d%E2%80%99esposito-156027159/"><img src="img/linkedin.png" class="link"></a></li>
+				<li><a href="https://github.com/VittoriaDespo/ChallengeOracleONE"><img src="img/github.png" class="link"></a></li>
+			</ul>
+
+		</footer>
+
+		<!--Importação dos Javascripts AQUI -->
+
+		<script src="js/add_word.js"></script>
+
+
+	</body>

@@ -1,0 +1,19 @@
+#mensagem-erro {
+	font-size: 20px;
+	color: red;
+}
+
+.adicionar-palavra {
+	display: flex;
+	flex-direction: column;
+	gap: 200px ;
+}
+
+.texto {
+	padding: 20px;
+	border: none;
+	font-size: 25px;
+	font-family: 'Gloria Hallelujah', cursive;
+	background: transparent;
+	outline: none;
+}

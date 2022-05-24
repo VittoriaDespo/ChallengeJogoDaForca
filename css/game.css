@@ -1,0 +1,65 @@
+.main-jogo {
+	height: auto;
+}
+
+.canvas {
+	display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    height: 900px;
+}
+
+.regras {
+	text-align: center;
+	margin: 1em;
+	font-size: 25px;
+	color: #245ad8;
+}
+
+.container-letras {
+	margin: 2em;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	position: relative;
+    bottom: 400px;
+    font-size: 25px;
+}
+
+.letras {
+	width: 40px;
+	height: 40px;
+	border-bottom: solid;
+	display: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+.display-letras-erradas {
+	font-size: 20px;
+	word-spacing: 1em;
+	word-break: break-word;
+    width: 600px;
+    height:auto;
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+
+}
+
+.input {
+	margin: 2em;
+	text-transform: uppercase;
+	position: relative;
+	bottom: 450px;
+	right: 100px;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
+.buttons-pag-game {
+	position: relative;
+	bottom: 300px;
+}

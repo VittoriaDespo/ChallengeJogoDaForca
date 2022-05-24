@@ -1,0 +1,98 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	height: 800px;
+	background: url(/Users/paulo/Desktop/front-end/Jogo-Forca/img/quadriculado.jpeg);
+	background-repeat: no-repeat;
+	background-size: 1300px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+	width: 100%;
+	font-family: 'Gloria Hallelujah',cursive;
+}
+
+.logo {
+	width: 50px;
+	margin: 10px;
+	margin-left: 30px;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #d80000;
+	margin: 0 1em;
+	font-size: 35px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	height: 60%;
+	font-family:'Gloria Hallelujah', cursive;
+}
+
+
+.section-buttons-home {
+	display: flex;
+	flex-direction: column;
+	gap: 30px ;
+}
+
+.button {
+ 	width: 250px;
+	padding: 5px 0;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+	border-color: black;
+	cursor: pointer;
+	background: #245ad8;
+	color: black;
+	transition: 1s all;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.button:hover {
+	background:#eff30f ;
+	color: black;
+	transform: scale(1.0);
+}
+
+.img-aviso {
+	position: relative;
+	top: 2px;
+}
+
+.aviso {
+	font-size: 18px;
+	margin: 10px;
+}
+
+.footer {
+ 	text-align: center;
+ 	margin: 1em; 
+ 	font-size: 18px;
+}
+
+ul{
+	margin-top: 10px;
+}
+
+li {
+ 	display: inline;
+}
+
+.link {
+	width: 40px;
+}
+
