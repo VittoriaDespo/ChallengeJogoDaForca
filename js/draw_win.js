@@ -102,6 +102,6 @@ function drawMessageWinner(){
 
     pincel.font='bold 70px Gloria Hallelujah,cursive';
     pincel.fillStyle="#d80000";
-    pincel.fillText("Você Venceu. Parabéns!",150,650);
+    pincel.fillText("Você Venceu. Parabéns!",100,700);
 
 }
