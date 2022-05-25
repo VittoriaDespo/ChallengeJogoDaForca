@@ -24,7 +24,7 @@ function winnerOrLoser(mistake, success){
 
 	if(success == wordLength){
 
-		pincel.clearRect(536,110,110,150);
+		pincel.clearRect(536,110,110,260);
 		drawHappyHangMan();
 
 		var displayWrongLetters = document.querySelector(".display-letras-erradas");
