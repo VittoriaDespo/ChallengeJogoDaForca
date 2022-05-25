@@ -1,4 +1,12 @@
 @media screen and (max-width: 480px){
+	body{
+		height: auto;
+	}
+
+	main {
+		width: auto;
+		height: auto;
+	}
 
 	.titulo-principal {
 		margin: 1em;
@@ -13,20 +21,55 @@
     	flex-direction: column;
 	}
 
-	.body-game {
-		width: 1000px;
-		background-size: 1400px;
+	.main-jogo{
+		width: 100%;
+
 	}
 
-
-	.canvas {
-		width: auto;
+	.canvas, canvas {
+		width: 100%;
 	}
 
-	
-	.footer {
-		position: relative;
-		top: 60px;
+	.container-letras {
+		top: 10px;
+		margin:1em;
+		position: absolute;
+		top: 390px;
+
+	}
+
+	.letras{
+		width: 30px;
+		font-size: 20px;
+	}
+
+	.display-letras-erradas {
+		top: 10px;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.input {
+		top: 5px;
+	}
+
+	.buttons-pag-game{
+		top: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    gap: 30px;
+	    width: 360px;
+
+	}
+
+	.aviso {
+		font-size: 15px;
 	}
 
 }
+
+
+
+	
+	

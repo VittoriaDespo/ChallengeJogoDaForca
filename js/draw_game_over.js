@@ -22,8 +22,8 @@ function drawFinalHangMan(){
 
 function drawMessageGameOver(){
 
-    pincel.font='bold 40px Verdana';
+    pincel.font='bold 50px Verdana';
 	pincel.fillStyle="#d80000";
-	pincel.fillText("Você perdeu!",370,590);
+	pincel.fillText("Você perdeu!",340,670);
 
 }
