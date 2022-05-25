@@ -8,7 +8,15 @@
 
 	.titulo-principal {
 		margin: 1em;
+		font-size: 40px;
 	}
+
+	.button {
+		font-size: 25px;
+	}
+
+
+	/* Add word page */
 
 	.adicionar-palavra{
 		align-items: center;
@@ -19,31 +27,44 @@
     	flex-direction: column;
 	}
 
+	#mensagem-erro {
+		margin: 10px;
+	}
+
+	/* Game page */
+
 	.main-jogo{
 		width: 100%;
 
 	}
 
-	.canvas, canvas {
+	.regras {
+		font-size: 30px;
+	}
+
+
+	canvas {
+
 		width: 100%;
 	}
 
+
 	.container-letras {
-		top: 10px;
 		margin:1em;
 		position: absolute;
-		top: 390px;
+		top: 460px;
+		font-size: 20px;
 
 	}
 
 	.letras{
 		width: 30px;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.display-letras-erradas {
-		bottom: 50px;
-		font-size: 20px;
+		bottom: 10px;
+		font-size: 25px;
 		width: 100%;
 	}
 
@@ -53,17 +74,16 @@
 	}
 
 	.buttons-pag-game{
-		top: 10px;
+		top: 50px;
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
-	    gap: 30px;
 	    width: 360px;
-
+	    gap: 10px;
 	}
 
 	.aviso {
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 }
