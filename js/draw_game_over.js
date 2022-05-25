@@ -24,6 +24,6 @@ function drawMessageGameOver(){
 
     pincel.font='bold 70px Gloria Hallelujah,cursive';
 	pincel.fillStyle="#d80000";
-	pincel.fillText("Você perdeu!",300,650);
+	pincel.fillText("Você perdeu!",300,700);
 
 }
