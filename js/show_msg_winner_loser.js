@@ -1,4 +1,6 @@
+var boxLetters = document.querySelector(".container-letras");
 
+var displayWrongLetters = document.querySelector(".display-letras-erradas");
 
 function winnerOrLoser(mistake, success){
 
@@ -8,15 +10,16 @@ function winnerOrLoser(mistake, success){
 	}else if(mistake >=7){
 		drawFinalHangMan();
 
-		displayLoser();
+		displayMessageLoser();
 	}
 
 	if(success == wordLength){
 
 		pincel.clearRect(536,110,110,260);
+
 		drawHappyHangMan();
 
-		displayWinner();
+		displayMessageWinner();
 	}
 
 }
@@ -28,23 +31,24 @@ function displaySecretWord() {
 }
 
 
-function displayWinner() {
-	var boxLetters = document.querySelector(".container-letras");
+function displayMessageWinner() {
 	boxLetters.innerHTML = displaySecretWord();
 
-	var displayWrongLetters = document.querySelector(".display-letras-erradas");
-	displayWrongLetters.textContent = drawMessageWinner();
+	displayWrongLetters.textContent = "Você Venceu. Parabéns!";
+	displayWrongLetters.classList.remove("display-letras-erradas");
+	displayWrongLetters.classList.add("letras-erradas");
 
 	input.style.display = "none";
 
 }
 
-function displayLoser(){
-	var boxLetters = document.querySelector(".container-letras");
+function displayMessageLoser(){
 	boxLetters.innerHTML = displaySecretWord();
 
-	var displayWrongLetters = document.querySelector(".display-letras-erradas");
-	displayWrongLetters.textContent = drawMessageGameOver();
+	displayWrongLetters.textContent = "Você Perdeu!";
+	displayWrongLetters.classList.remove("display-letras-erradas");
+	displayWrongLetters.classList.add("letras-erradas");
 
 	input.style.display = "none";
 }
+

@@ -20,11 +20,10 @@ header {
 
 .titulo-principal {
 	text-align: center;
-	font-size: 2em;
 	font-weight: bold;
 	color: #d80000;
 	margin: 0 1em;
-	font-size: 35px;
+	font-size: 50px;
 }
 
 main {

@@ -16,7 +16,7 @@
 	}
 
 
-	/* Add word page */
+	/* page add-word */
 
 	.adicionar-palavra{
 		align-items: center;
@@ -31,7 +31,7 @@
 		margin: 10px;
 	}
 
-	/* Game page */
+	/* page game */
 
 	.main-jogo{
 		width: 100%;
@@ -42,30 +42,35 @@
 		font-size: 30px;
 	}
 
-
 	canvas {
 
-		width: 100%;
+		width: 400px;
 	}
 
 
 	.container-letras {
 		margin:1em;
-		position: absolute;
-		top: 480px;
+		position: relative;
+		bottom: 10px;
 		font-size: 20px;
 
 	}
 
 	.letras{
 		width: 30px;
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.display-letras-erradas {
 		bottom: 10px;
-		font-size: 25px;
+		font-size: 20px;
 		width: 100%;
+	}
+
+	.letras-erradas {
+		font-size: 30px;
+		position: relative;
+    	top: 20px;
 	}
 
 	.input {

@@ -2,7 +2,7 @@
 	height: auto;
 }
 
-.canvas {
+.area-principal {
 	display: flex;
     flex-direction: column;
     align-content: stretch;
@@ -18,12 +18,11 @@
 }
 
 .container-letras {
-	margin: 2em;
 	display: flex;
 	flex-direction: row;
 	gap: 15px;
 	position: relative;
-    bottom: 400px;
+    bottom: 80px;
     font-size: 25px;
 }
 
@@ -44,22 +43,26 @@
     height:auto;
     text-align: center;
     position: relative;
-    bottom: 380px;
+    bottom: 50px;
+}
+
+.letras-erradas {
+	font-size: 70px;
+	color: #d80000;
 
 }
 
 .input {
 	margin: 2em;
 	text-transform: uppercase;
-	position: relative;
-	bottom: 450px;
-	right: 100px;
 	background: transparent;
 	border: none;
 	outline: none;
+	position: relative;
+	bottom: 20px;
 }
 
 .buttons-pag-game {
 	position: relative;
-	bottom: 190px;
+    top: 100px;
 }
