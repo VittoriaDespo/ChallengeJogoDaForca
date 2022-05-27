@@ -61,6 +61,10 @@
 		font-size: 20px;
 	}
 
+	.input {
+		bottom: 100px;
+	}
+
 	.display-letras-erradas {
 		bottom: 10px;
 		font-size: 20px;
@@ -80,10 +84,6 @@
 	    align-items: center;
 	    width: 360px;
 	    gap: 10px;
-	}
-
-	.aviso {
-		font-size: 18px;
 	}
 
 }
