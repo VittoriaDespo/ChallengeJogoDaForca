@@ -51,7 +51,7 @@
 	.container-letras {
 		margin:1em;
 		position: relative;
-		bottom: 10px;
+		bottom: 50px;
 		font-size: 20px;
 
 	}
@@ -62,20 +62,18 @@
 	}
 
 	.input {
-		bottom: 100px;
+		bottom: 60px;
 		font-size: 16px;
 	}
 
 	.display-letras-erradas {
-		bottom: 10px;
+		bottom: 40px;
 		font-size: 20px;
 		width: 100%;
 	}
 
 	.letras-erradas {
 		font-size: 30px;
-		position: relative;
-    	top: 20px;
 	}
 
 	.buttons-pag-game{
