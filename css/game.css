@@ -53,13 +53,12 @@
 }
 
 .input {
-	margin: 2em;
 	text-transform: uppercase;
 	background: transparent;
 	border: none;
 	outline: none;
 	position: relative;
-	bottom: 20px;
+	bottom: 40px;
 }
 
 .buttons-pag-game {

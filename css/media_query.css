@@ -13,6 +13,7 @@
 
 	.button {
 		font-size: 25px;
+		width: 360px;
 	}
 
 
@@ -62,7 +63,7 @@
 	}
 
 	.input {
-		bottom: 40px;
+		bottom: 60px;
 		font-size: 16px;
 	}
 
