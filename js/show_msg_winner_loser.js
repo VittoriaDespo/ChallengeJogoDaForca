@@ -4,7 +4,7 @@ var displayWrongLetters = document.querySelector(".display-letras-erradas");
 
 function winnerOrLoser(mistake, success){
 
-	if(mistake <= 7){
+	if(mistake < 7){
 		drawHangMan(mistake);
 
 	}else if(mistake >=7){
