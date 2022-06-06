@@ -7,7 +7,7 @@ body{
     justify-content: space-between;
     background-image: url(../img/blackboard.jpeg);
 	background-repeat: no-repeat;
-	background-size: 2000px;
+	background-size: 3000px;
     
 }
 
@@ -15,7 +15,6 @@ header {
 	width: 100%;
 	font-family: 'Fredericka the Great', cursive;
 	
-
 }
 
 .logo {
