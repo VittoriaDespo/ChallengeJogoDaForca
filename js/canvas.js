@@ -3,8 +3,8 @@ var pincel = tela.getContext('2d');
 
 function drawGallow(){
 
-    pincel.strokeStyle = "#6F432A"
-    pincel.lineWidth = 10
+    pincel.strokeStyle = "#f5f5f5"
+    pincel.lineWidth = 7
     pincel.beginPath();
     pincel.moveTo(400, 400);
     pincel.lineTo(660, 400);
@@ -40,7 +40,7 @@ function drawGallow(){
 function drawHangMan(mistake){
 
     if (mistake == 1){
-    	pincel.strokeStyle = "#6F432A"
+    	pincel.strokeStyle = "#f5f5f5"
     	pincel.lineWidth = 7
 		pincel.beginPath();
 	    pincel.moveTo(600, 105);
@@ -48,15 +48,16 @@ function drawHangMan(mistake){
 	    pincel.stroke();
 
     }else if(mistake == 2){
-    	pincel.strokeStyle = "black"
+    	pincel.strokeStyle = "#f5f5f5"
+        pincel.lineWidth = 5
 		pincel.beginPath();
     	pincel.arc(600, 150, 30, 0, 2 * 3.14);
   		pincel.stroke();
 
     }else if(mistake == 3){
     	pincel.lineCap = "round"
-    	pincel.strokeStyle = "black"
-    	pincel.lineWidth = 7
+    	pincel.strokeStyle = "#f5f5f5"
+    	pincel.lineWidth = 5
     	pincel.beginPath();
     	pincel.moveTo(600, 180);
     	pincel.lineTo(600, 300)
@@ -90,34 +91,25 @@ function drawFinalHangMan(){
     pincel.lineTo(650, 360);
     pincel.stroke();
 
-    pincel.strokeStyle = "black"
+    pincel.strokeStyle = "#f5f5f5"
+    pincel.lineWidth = 5
     pincel.beginPath();
     pincel.arc(600, 150, 30, 0, 2 * 3.14);
     pincel.stroke();
 
     pincel.font='bold 15px Verdana';
-    pincel.fillStyle='black';
+    pincel.fillStyle='white';
     pincel.fillText("x",607,150);
 
     pincel.font='bold 15px Verdana';
-    pincel.fillStyle='black';
+    pincel.fillStyle='white';
     pincel.fillText("x",585,150);
 
 }
 
-function drawMessageGameOver(){
-
-    pincel.font='bold 70px Gloria Hallelujah,cursive';
-    pincel.fillStyle="#d80000";
-    pincel.fillText("Você perdeu!",300,650);
-
-}
-
-
-
 function drawHappyHangMan(){
 
-    pincel.strokeStyle = "#6F432A"
+    pincel.strokeStyle = "#f5f5f5"
     pincel.lineWidth = 7
     pincel.beginPath();
     pincel.moveTo(600, 105);
@@ -125,17 +117,18 @@ function drawHappyHangMan(){
     pincel.stroke();
 
 
-    pincel.strokeStyle = "black"
+    pincel.strokeStyle = "#f5f5f5"
+    pincel.lineWidth = 5
     pincel.beginPath();
     pincel.arc(600, 195, 30, 0, 2 * 3.14);
     pincel.stroke();
 
     pincel.font='bold 15px Verdana';
-    pincel.fillStyle='black';
+    pincel.fillStyle="white";
     pincel.fillText("<",607,195);
 
     pincel.font='bold 15px Verdana';
-    pincel.fillStyle='black';
+    pincel.fillStyle="white";
     pincel.fillText(">",580,195);
 
     pincel.lineWidth = 2
@@ -145,8 +138,8 @@ function drawHappyHangMan(){
 
 
     pincel.lineCap = "round"
-    pincel.strokeStyle = "black"
-    pincel.lineWidth = 7
+    pincel.strokeStyle = "#f5f5f5"
+    pincel.lineWidth = 5
     pincel.beginPath();
     pincel.moveTo(600, 230);
     pincel.lineTo(600, 338)
@@ -204,9 +197,9 @@ function drawMoviment(){
         y++
     }
 
-    pincel.clearRect(536,228,60,60);
+    pincel.clearRect(537,228,60,60);
 
-    pincel.clearRect(604,228,60,60)
+    pincel.clearRect(603,228,60,60)
 
     drawArms(y);
 }

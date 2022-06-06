@@ -1,5 +1,7 @@
+
 .main-jogo {
 	height: auto;
+	font-family: 'Fredericka the Great', cursive;	
 }
 
 .area-principal {
@@ -14,7 +16,7 @@
 	text-align: center;
 	margin: 1em;
 	font-size: 25px;
-	color: #245ad8;
+	color: white;
 }
 
 .container-letras {
@@ -24,6 +26,7 @@
 	position: relative;
     bottom: 80px;
     font-size: 25px;
+    color: white;
 }
 
 .letras {
@@ -33,6 +36,7 @@
 	display: none;
 	text-align: center;
 	font-size: 20px;
+	color: white;
 }
 
 .display-letras-erradas {
@@ -44,11 +48,12 @@
     text-align: center;
     position: relative;
     bottom: 50px;
+    color: white;
 }
 
 .letras-erradas {
 	font-size: 70px;
-	color: #d80000;
+	color: white;
 
 }
 
@@ -64,4 +69,5 @@
 .buttons-pag-game {
 	position: relative;
     top: 100px;
+    
 }

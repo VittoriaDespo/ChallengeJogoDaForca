@@ -5,25 +5,33 @@ body{
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(../img/blackboard.jpeg);
+	background-repeat: no-repeat;
+	background-size: 2000px;
+    
 }
 
 header {
 	width: 100%;
-	font-family: 'Gloria Hallelujah',cursive;
+	font-family: 'Fredericka the Great', cursive;
+	
+
 }
 
 .logo {
-	width: 50px;
+	width: 60px;
 	margin: 10px;
 	margin-left: 30px;
+
 }
 
 .titulo-principal {
 	text-align: center;
 	font-weight: bold;
-	color: #d80000;
+	color: white;
 	margin: 0 1em;
 	font-size: 50px;
+
 }
 
 main {
@@ -34,7 +42,7 @@ main {
 	align-items: center;
 	margin: 0 auto;
 	height: 60%;
-	font-family:'Gloria Hallelujah', cursive;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 
@@ -49,35 +57,39 @@ main {
 	padding: 5px 0;
 	font-weight: bold;
 	font-size: 20px;
-	border-radius: 20px;
-	border-color: black;
+	border-style: double;
+	border-color: whitesmoke;
 	cursor: pointer;
-	background: #245ad8;
-	color: black;
+	background: transparent;
+	color: white;
 	transition: 1s all;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Fredericka the Great', cursive;
+	
 }
 
 .button:hover {
-	background:#eff30f ;
-	color: black;
+	font-size: 25px;
+	background: black;
 	transform: scale(1.0);
 }
 
 .img-aviso {
 	position: relative;
-	top: 2px;
+	top: 3px;
+	width: 20px;
 }
 
 .aviso {
 	font-size: 18px;
 	margin: 10px;
+	color: white;
 }
 
 .footer {
  	text-align: center;
  	margin-top: 2em; 
  	font-size: 18px;
+ 	color: whitesmoke;
 }
 
 ul{
